@@ -1,10 +1,10 @@
-# Yerba
+# Yerba Tray
 
-![assets/example.png](assets/example.png)
+https://user-images.githubusercontent.com/13779974/184756419-c7e040ab-eeb1-4662-8ad9-5d6a102af29b.mov
 
-An Electron Monorepo Demo
+A tray app version of [TheoBr](https://github.com/TheoBr)'s awesome [Yerba](https://github.com/TheoBr/yerba)
 
-Uses:
+## Uses:
 
 - Next.js
 - Typescript
@@ -12,16 +12,15 @@ Uses:
 - Turborepo
 - Vite (for Electron builds)
 
-## Getting Started
+## Getting Started:
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Prior work
+## TODO:
 
-Most of this code is generously borrowed from the following
-
-- [vite-electron-builder](https://github.com/cawa-93/vite-electron-builder)
-- [Turborepo basic example](https://github.com/vercel/turborepo/tree/main/examples/basic)
+- calculate screen position for each corner
+- recalculate when icon moves (not sure if this can be done with electron)
+- add button to display a non tray settings window
